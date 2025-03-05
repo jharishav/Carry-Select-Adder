@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="carry_select_adder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="carry_select_adder_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="265000001fs"></ZoomEndTime>
+      <Cursor1Time time="8400000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="96"></NameColumnWidth>
+      <ValueColumnWidth column_width="50"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/carry_select_adder_tb/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/carry_select_adder_tb/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/carry_select_adder_tb/C_IN" type="logic">
+      <obj_property name="ElementShortName">C_IN</obj_property>
+      <obj_property name="ObjectShortName">C_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/carry_select_adder_tb/SUM" type="array">
+      <obj_property name="ElementShortName">SUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/carry_select_adder_tb/C_OUT" type="logic">
+      <obj_property name="ElementShortName">C_OUT</obj_property>
+      <obj_property name="ObjectShortName">C_OUT</obj_property>
+   </wvobject>
+</wave_config>
